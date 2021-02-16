@@ -1,5 +1,9 @@
 # Exercise 2.2 - Routing 🗺️
 
+- 💯 **Worth**: 1%
+- 📅 **Due**: February 24, 2020 @ 23:59
+- 🙅🏽‍ **Penalty**: Late submissions lose 10% per day to a maximum of 3 days. Nothing is accepted after 3 days and a grade of 0% will be given.
+
 ## 🎯 Objectives
 
 - **Encapsulate** HTTP request/response functionality inside `Request` and `Response` classes.
@@ -171,3 +175,13 @@ Check that all tests are passing by removing all occurrences of `.only` and runn
 2. Select the correct repository and branch from the dropdown menus.
 3. Click _Upload_.
 4. Wait for the autograder to finish grading your submission. Once it's done, you should see the final output of the test results as well as your grade on the top right.
+
+### 💯 Grade Distribution
+
+Only the tests in `http.test.js` will be graded:
+
+- `Pokemon was created successfully.` = **20%**
+- `All Pokemon were found.` = **20%**
+- `Pokemon was found by ID.` = **20%**
+- `Pokemon was updated successfully.` = **20%**
+- `Pokemon was deleted successfully.` = **20%**
