@@ -53,7 +53,7 @@ In this exercise, we're going to build a `Router` class that will be responsible
 
 ![Client Router Model](images/2.2.2-Client-Router-Model.png)
 
-> 💡 Make the distinction in your mind between an **HTTP request**, which is simply plain text, and the **JS `Request` class**, which is the class that will hold the request data for us so that we may reference it throughout pur application. The same goes for an **HTTP response** and the **JS `Response` class**.
+> 💡 Make the distinction in your mind between an **HTTP request**, which is simply plain text, and the **JS `Request` class**, which is the class that will hold the request data for us so that we may reference it throughout our application. The same goes for an **HTTP response** and the **JS `Response` class**.
 
 ### 🗄️ Server.js & App.js
 
