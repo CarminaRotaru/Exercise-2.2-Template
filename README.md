@@ -159,7 +159,7 @@ This class is responsible for invoking the appropriate method on the appropriate
 - **Functions**
   - `constructor`: Initializes the `request` and `response`.
   - `dispatch`:
-    - Determines which function on which model to call based on the model name and request method from the `this.request`. Returns
+    - Determines which function on which model to call based on the model name and request method from the `this.request`.
     - Calls `this.response.setResponse()` and passes in the status code, message, and payload based on the output of the invoked model function.
     - Returns `this.response`.
 
