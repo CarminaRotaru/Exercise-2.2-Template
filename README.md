@@ -171,7 +171,7 @@ This class is responsible for invoking the appropriate method on the appropriate
 
 Check that all tests are passing by removing all occurrences of `.only` and running the test suite for the final time. Once you've made your final `git push` to GitHub, here's what you have to do to submit:
 
-1. Go to [Gradescope](https://www.gradescope.ca/courses/828) and click the link for this assignment.
+1. Go to [Gradescope](https://www.gradescope.ca/courses/828) and click the link for this exercise.
 2. Select the correct repository and branch from the dropdown menus.
 3. Click _Upload_.
 4. Wait for the autograder to finish grading your submission. Once it's done, you should see the final output of the test results as well as your grade on the top right.
