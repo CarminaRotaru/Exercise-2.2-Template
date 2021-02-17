@@ -149,6 +149,7 @@ This class is responsible for getting the data ready to go back to the client.
   - `getStatusCode`: Getter for `this.statusCode`
   - `getMessage`: Getter for `this.message`
   - `getPayload`: Getter for `this.payload`
+  - `setResponse`: Takes an object as its only parameter. This object can have properties for the status code, message, and payload which the function will set to its member variables. This is an alternative way to set response parameters if you don't know the response parameters at the time of instantiating a `Response` object.
   - `toString`: Returns a [JSON stringified object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify) containing `this.message` and `this.payload`.
 
     > 💡 Remember that an HTTP request and HTTP response are simply text that are transferred between client and server. In order to send back data inside of the HTTP response body, that data must be represented as a string.
